@@ -15,6 +15,10 @@
    padding-left: 25px;
 }
 
+svg {
+   fill: #828282;
+}
+
 .footer-col-wrapper {
    font-size: 15px;
    color: #828282;
@@ -49,7 +53,7 @@
 }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
 .footer-col {
     float: none;
     width: -webkit-calc(100% - (30px / 2));
