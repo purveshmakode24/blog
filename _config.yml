@@ -4,3 +4,4 @@ author: Purvesh Makode
 email: makodepurvesh@gmail.com
 description: A space to express some thoughts and opinions
 permalink: /:categories/:year/:month/:day/:title/ 
+markdown: kramdown
