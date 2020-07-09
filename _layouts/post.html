@@ -6,8 +6,7 @@ layout: default
   <header class="pt-4 pb-3">
     <h1 itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="text-secondary">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      </time>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
        {% if page.author %}
         &bull;  
         <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> 
