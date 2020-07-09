@@ -6,18 +6,12 @@ layout: default
   <header class="pt-4 pb-3">
     <h1 itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="text-secondary">
-      {% if page.author %}
-        {% if page.author_url %}
-          <a href="{{ page.author_url }}">
-        {% endif %}
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-        {% if page.author_url %}
-          </a>
-        {% endif %}
-        &bull;
-      {% endif %}
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       </time>
+       {% if page.author %}
+        &bull;  
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> 
+      {% endif %}
     </p>
   </header>
 
