@@ -3,11 +3,11 @@ layout: default
 ---
 
 <div id="content">
-  
-  <h1 class="page-heading">Posts</h1>
+
+  <p>Posts</p>
 
   <ul class="list-unstyled m-0">
-    {% for post in posts %}
+    {% for post in site.posts %}
       <li class="py-2">
         <span class="text-secondary">{{ post.date | date: date_format }}</span>
 
