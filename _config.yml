@@ -1,7 +1,19 @@
-#site settings
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+
+# Site settings
+
 title: Purvesh's Blog
 author: Purvesh Makode
 email: makodepurvesh@gmail.com
-description: A space to express some thoughts and opinions
+description: >- # this means to ignore newlines until "baseurl:"
+  A space to express some thoughts and opinions.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "blog.purveshmakode.com"
 permalink: /:categories/:year/:month/:day/:title/ 
+twitter_username: purveshmakode24
+github_username:  purveshmakode24
+
+# Build settings
 markdown: kramdown
+

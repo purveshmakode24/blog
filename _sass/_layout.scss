@@ -3,8 +3,9 @@ $layout-color-background: #fdfdfd !default;
 $layout-color-syntax-highlighting-background: #f8f9fa !default;
 $layout-responsive-nav-cutoff: 768px !default;
 
-body {
+html, body {
   background-color: $layout-color-background;
+  height: 100%;
 }
 
 #nav-header {
@@ -62,6 +63,8 @@ body {
 
 #site-footer {
   border-top: 1px solid $layout-color-border;
+  font-size: 15px;
+  padding: 30px 0px 90px 0px;
 }
 
 .highlight pre {

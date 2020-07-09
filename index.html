@@ -4,14 +4,14 @@ layout: default
 
 <div id="content">
 
-  <p>Posts</p>
+  <p class="posts-label pt-3">Posts</p>
 
   <ul class="list-unstyled m-0">
     {% for post in site.posts %}
       <li class="py-2">
         <span class="text-secondary">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h1 class="mt-1 mb-3 h3">
+        <h1 class="mt-1 mb-3 h4">
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h1>
 
