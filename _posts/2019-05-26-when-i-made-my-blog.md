@@ -51,7 +51,7 @@ read: "2 minutes read"
     <circle id="donut" cx="148" cy="140" r="200" mask="url(#bigmask)" fill="#34495e"/>
 </svg>
 
-Well, when I started getting deep into backend technologies by creating medium-like blog platform for professional people and publishers (acts as a blog host), I kept getting an idea to make my own blog using this so called backend technology known as django.
+Well, when I started getting deep into backend technologies by creating medium-like blog platform for professional people and publishers (acts as a blog host), I kept getting an idea to make my own blog using this so called backend technology known as Django.
 
 (Update: Now I have shifted to jekyll a ruby and full markdown based blog with other features.)
 
