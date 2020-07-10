@@ -6,7 +6,7 @@ categories: posts
 read: "2 minutes read"
 ---
 
-Well, when I started learning backend technologies by creating medium-like blog platform for professional people, I was keep getting an idea to make my own blog using this so called simple technology known as django.
+Well, when I started getting deep into backend technologies by creating medium-like blog platform for professional people and publishers (acts as a blog host), I kept getting an idea to make my own blog using this so called backend technology known as django.
 
 (Update: Now I have shifted to jekyll a ruby and full markdown based blog with other features.)
 
