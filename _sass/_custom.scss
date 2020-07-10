@@ -15,8 +15,9 @@
    padding-left: 25px;
 }
 
-svg {
-   fill: #828282;
+header svg {
+   fill: #000000;
+   margin-bottom: 2px;
 }
 
 .footer-col-wrapper {
@@ -44,6 +45,18 @@ svg {
 .footer-col-3 {
    width: -webkit-calc(45% - (30px / 2));
    width: calc(45% - (30px / 2));
+}
+
+@media screen and (max-width: 800px) {
+.post-title {
+    font-size: 35px; 
+}
+}
+
+@media screen and (max-width: 525px) {
+.post-title {
+    font-size: 30px; 
+}
 }
 
 @media screen and (max-width: 800px) {

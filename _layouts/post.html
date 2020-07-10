@@ -4,12 +4,20 @@ layout: default
 <article itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="pt-4 pb-3">
-    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="text-secondary">
+      <span class="post-date">
+      {% include icon-calendar.svg %}
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-       {% if page.author %}
-        &bull;  
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> 
+      <span>
+      {% if page.author %}
+      &bull;  
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> 
+      {% endif %}
+      {% if page.read %}
+      <span class="post-read pl-3">{% include icon-clock.svg %}
+      <span itemprop="read">{{ page.read }}</span>
+      </span>
       {% endif %}
     </p>
   </header>

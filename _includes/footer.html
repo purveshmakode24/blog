@@ -6,13 +6,13 @@
         <ul class="list-unstyled">
           	<li class="text-secondary">
             {% if site.author %}
-              {{ site.author | escape }}
+              <a href="https://www.purveshmakode.com" class="text-secondary">{{ site.author | escape }}</a>
             {% else %}
               {{ site.title | escape }}
             {% endif %}
             </li>
             {% if site.email %}
-             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+             <li><a href="mailto:{{ site.email }}" class="text-secondary">{{ site.email }}</a></li>
             {% endif %}
         </ul>
       </div>

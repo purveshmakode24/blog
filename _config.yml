@@ -3,11 +3,11 @@
 
 # Site settings
 
-title: Purvesh's Blog
+title: PURVESH'S BLOG
 author: Purvesh Makode
 email: makodepurvesh@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A space to express some thoughts and opinions.
+  Hacker. Writer. Developer. Geek.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "blog.purveshmakode.com"
 permalink: /:categories/:year/:month/:day/:title/ 
