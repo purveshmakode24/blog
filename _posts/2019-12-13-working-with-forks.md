@@ -6,7 +6,11 @@ categories: posts
 read: "8 minutes read"
 ---
 
+<br/>
+
 Forks are often used in open source development on GitHub. If you are planning on contributing to someone else's project on Github, but don't know how to keep your fork up-to-date then this is the best place to help you get started.
+
+<br/>
 
 #### What is Forking?
 
@@ -14,11 +18,15 @@ A fork is a replica of a repository that you manage. Forks let you make changes 
 
 > Note: Here owner's repository refers to the original repository or upstream repository.
 
+<br/>
+
 #### What is a pull request?
 
 Pull requests are the way we contribute to open source or group projects.
 
 For instance, a user Paul forks a repository of Benedict and makes changes to that repository. Now Paul can make a pull request to Benedict, but it’s up to Benedict to accept or decline it. It’s like Paul is saying, “Benedict, would you please pull my changes?!”
+
+<br/>
 
 #### Choose the forked repository you are working on
 
@@ -27,6 +35,8 @@ For instance, a user Paul forks a repository of Benedict and makes changes to th
 ```
 git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git	 
 ```
+
+<br/>
 
 #### Configuring a remote for a fork
 
@@ -41,6 +51,8 @@ git remote add upstream https://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED
 
 git fetch upstream
 ```
+
+<br/>
 
 #### Syncing a fork (Keeping fork up-to-date) {#syncing-a-fork}
 
@@ -69,6 +81,8 @@ git push origin master
 <img id="fork-and-clone" src="/assets/images/fork-and-clone.png" alt="fork-and-clone" style="max-width: 100%; display: block;
     margin: 0 auto;"/>
 <p style="text-align: center">Fig., Workflow: Fork/Sync and Cloning</p> 
+
+<br/>
 
 ## Pro Tips 
 
