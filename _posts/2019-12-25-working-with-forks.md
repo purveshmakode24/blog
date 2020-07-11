@@ -39,7 +39,7 @@ Configuring a remote for a fork is often required to [sync changes](#) from orig
 
 #### Syncing a fork (Keeping fork up-to-date)
 
-Sync a fork of a repository to keep it ==up-to-date== with the upstream repository.
+Sync a fork of a repository to keep it up-to-date with the upstream repository.
 * Updating your fork from original repo to keep up with their changes:
 	```
 	    git pull upstream master
@@ -52,7 +52,7 @@ Sync a fork of a repository to keep it ==up-to-date== with the upstream reposito
 	```
 	    git push origin master
 	``` 
-:white_check_mark: At this stage your forked repository (both Local and Remote) must be synced with the original repository.
+✅ At this stage your forked repository (both Local and Remote) must be synced with the original repository.
 
 > In case if you're confused with what remote and local in this context really means?! Following diagram will help you out
 
@@ -63,7 +63,7 @@ Sync a fork of a repository to keep it ==up-to-date== with the upstream reposito
 
 ## Pro Tips 
 
-> If you have basic understanding of how pull request and branches works, these are the best practices you must follow while working with the forked repository:
+> If you've basic understanding of how pull request and branches works, these are the best practices you must follow while working with the forked repository:
 
 1) If you want to make some changes into an app, prefer to create feature branches. i.e., Instead of making changes into your forked master-branch, make changes into your Feature-Branch.
 
