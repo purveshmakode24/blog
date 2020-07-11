@@ -28,7 +28,7 @@ For instance, a user Alice forks a repository of Bob and makes changes to that r
 
 #### Configuring a remote for a fork
 
-Configuring a remote for a fork is often required to [sync changes](#) from original repository to your forked repository. (That's the case when the original repository (owners) is not even with the forked repository)
+Configuring a remote for a fork is often required to [sync changes](#sync-id) from original repository to your forked repository. (That's the case when the original repository (owners) is not even with the forked repository)
 
 *  Add remote from original repository in your forked repository: 
 	```
@@ -37,7 +37,7 @@ Configuring a remote for a fork is often required to [sync changes](#) from orig
 	    git fetch upstream
 	```
 
-#### Syncing a fork (Keeping fork up-to-date)
+#### Syncing a fork (Keeping fork up-to-date) {#sync-id}
 
 Sync a fork of a repository to keep it up-to-date with the upstream repository.
 * Updating your fork from original repo to keep up with their changes:
