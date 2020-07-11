@@ -6,7 +6,7 @@ categories: posts
 read: "10 minutes read"
 ---
 
-Forks are often used in open source development on GitHub.  If you are planning on contributing on someone else's project on github, but don't know how to keep your fork up-to-date then this is the best place to help you get started.
+Forks are often used in open source development on GitHub. If you are planning on contributing on someone else's project on github, but don't know how to keep your fork up-to-date then this is the best place to help you get started.
 
 #### What is Forking?
 
@@ -17,7 +17,7 @@ A fork is a exact replica of a repository that you manage. Forks let you make ch
 
 Pull requests are the way we contribute to open source or group projects.
 
-For instance, a user Paul forks a repository of Benedict and makes changes to that repository. Now Paul can make a pull request to Benedict, but it’s up to Benedict to accept or decline it. It’s like saying, “Benedict, would you please pull my changes?!”
+For instance, a user Paul forks a repository of Benedict and makes changes to that repository. Now Paul can make a pull request to Benedict, but it’s up to Benedict to accept or decline it. It’s like Paul is saying, “Benedict, would you please pull my changes?!”
 
 #### Choose the forked repository you are working on
 
@@ -29,9 +29,9 @@ For instance, a user Paul forks a repository of Benedict and makes changes to th
 
 #### Configuring a remote for a fork
 
-Configuring a remote for a fork is often required to [sync changes](#syncing-a-fork) from original repository to your forked repository. (That's the case when the original repository (owners) is not even with the forked repository)
+Configuring a remote for a fork is often required to [sync changes](#syncing-a-fork) from original repository to your forked repository. (That's the case when the original repository(owner's) is not even with the forked repository)
 
-*  Add remote from original repository in your forked repository: 
+*  Add remote from original repository(owner's) in your forked repository: 
 
 	```
 	    cd into/cloned/fork-repo
@@ -41,22 +41,22 @@ Configuring a remote for a fork is often required to [sync changes](#syncing-a-f
 
 #### Syncing a fork (Keeping fork up-to-date) {#syncing-a-fork}
 
-Sync a fork of a repository to keep it up-to-date with the upstream repository.
+Sync a forked repository to keep it up-to-date with the upstream repository.
 * Updating your fork from the original repository to keep up with their changes:
 
 	```
 	    git pull upstream master
 	```
 
-	At this stage your forked repository (Local) must be synced with original repository.
+	At this stage your forked repository(Local) must be synced with original repository.
 	> Note: But we can't see this sync in our remote branch.  So we have to push this changes from your Local to Remote
 	
-* Push all the changes from Local to Remote:
+* Push all the changes from your Local to Remote:
 
 	```
 	    git push origin master
 	``` 
-✅ At this stage your forked repository (both Local and Remote) must be synced with the original repository.
+✅ At this stage your forked repository(both Local and Remote) must be synced with the original repository.
 
 > In case if you're confused with what remote and local in this context really means?! [Following diagram](#fork-and-clone) will help you out
 
@@ -73,7 +73,7 @@ Sync a fork of a repository to keep it up-to-date with the upstream repository.
 
 2. Keep your remote/local forked master-branch synchronized before creating any Feature-Branch. (This hardly gives you any merged conflict when you make pull request, unless any other user is making the same changes that you are making after your remote/local forked master-branch is synchronized with original branch)
     
-	> If that's the case (Got any merge conflicts), you can simply resolve it by removing your conflict code from the feature-branch)
+	> If that's the case(Got any merge conflicts), you can simply resolve it by removing your conflict code from the feature-branch)
   
 3. Keep your local/remote forked master-branch synced with the original master-branch before making any pull requests.
 
