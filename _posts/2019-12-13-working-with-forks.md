@@ -3,7 +3,7 @@ layout: post
 title:  "Working with Forks?!"
 date:   2019-12-13 15:00:00 +0900
 categories: posts
-read: "10 minutes read"
+read: "8 minutes read"
 ---
 
 Forks are often used in open source development on GitHub. If you are planning on contributing to someone else's project on Github, but don't know how to keep your fork up-to-date then this is the best place to help you get started.
@@ -80,4 +80,4 @@ Sync a forked repository to keep it up-to-date with the upstream repository.
 
 4. Delete the feature branch when pull request is accepted.
 
-> *Original Master Branch*: Owner's/Upstream master-branch from which you forked the repository.
+> **Original Master Branch**: Owner's/Upstream master-branch from which you forked the repository.
