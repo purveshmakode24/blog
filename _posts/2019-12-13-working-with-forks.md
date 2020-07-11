@@ -22,47 +22,52 @@ For instance, a user Paul forks a repository of Benedict and makes changes to th
 
 #### Choose the forked repository you are working on
 
-* Clone your fork
+* Clone your fork:
 
-	```
-	    git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git	 
-	```
+
+```
+git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git	 
+```
 
 #### Configuring a remote for a fork
 
 Configuring a remote for a fork is often required to [sync changes](#syncing-a-fork) from the original repository to your forked repository. (That's the case when the original repository is not even with the forked repository)
 
-*  Add remote from the original repository (owner's/upstream) in your forked repository: 
+* Add remote from the original repository (owner's/upstream) in your forked repository:
 
-	```
-	    cd into/cloned/fork-repo
-	    git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
-	    git fetch upstream
-	```
+```
+cd into/cloned/fork-repo
+	
+git remote add upstream https://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+
+git fetch upstream
+```
 
 #### Syncing a fork (Keeping fork up-to-date) {#syncing-a-fork}
 
 Sync a forked repository to keep it up-to-date with the upstream repository.
+
 * Updating your fork from the original repository to keep up with their changes:
 
-	```
-	    git pull upstream master
-	```
+```
+git pull upstream master
+```
 
-	At this stage, your forked repository (Local) must have synced with the original repository.
-	> Note: But we can't see this sync in our remote branch. So we have to push these changes from your Local to Remote
+At this stage, your forked repository (Local) must have synced with the original repository.
+	
+> Note: But we can't see this sync in our remote branch. So we have to push these changes from your Local to Remote
 	
 * Push all the changes from your Local to Remote:
 
-	```
-	    git push origin master
-	``` 
+```
+git push origin master
+``` 
 	
 ✅ At this stage, your forked repository (both Local and Remote) must have synced with the original repository.
 
 > In case if you're confused with what remote and local in this context really means?! [Following diagram](#fork-and-clone) will help you out
 
-<img id="fork-and-clone" src="/assets/images/fork-and-clone.png" alt="fork-and-clone" style="width: 800px; display: block;
+<img id="fork-and-clone" src="/assets/images/fork-and-clone.png" alt="fork-and-clone" style="max-width: 100%; display: block;
     margin: 0 auto;"/>
 <p style="text-align: center">Fig., Workflow: Fork/Sync and Cloning</p> 
 
