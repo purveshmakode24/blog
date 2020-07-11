@@ -20,10 +20,10 @@ For instance, a user Alice forks a repository of Bob and makes changes to that r
 
 ### Choose the forked repository you are working on
 
-* Clone your fork
+* Clone your fork	
 	```
-	git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
-    	```
+	    git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git	 
+	```
 
 ### Configuring a remote for a fork
 Configuring a remote for a fork is often required to [sync changes](#) from original repository to your forked repository. (That's the case when the original repository (owners) is not even with the forked repository)
