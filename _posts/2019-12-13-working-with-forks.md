@@ -24,7 +24,6 @@ For instance, a user Paul forks a repository of Benedict and makes changes to th
 
 * Clone your fork:
 
-
 ```
 git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git	 
 ```
@@ -37,7 +36,7 @@ Configuring a remote for a fork is often required to [sync changes](#syncing-a-f
 
 ```
 cd into/cloned/fork-repo
-	
+
 git remote add upstream https://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
 
 git fetch upstream
