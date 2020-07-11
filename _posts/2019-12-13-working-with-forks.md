@@ -63,7 +63,7 @@ Sync a fork of a repository to keep it up-to-date with the upstream repository.
 
 <img src="/assets/images/fork-and-clone.png" alt="fork-and-clone" style="width: 800px; display: block;
     margin: 0 auto;"/>
-<p style="display: block; margin: 0 auto;">fig., Workflow: Fork/Sync and Cloning<p> 
+<p style="display: block; margin: 0 auto;">fig., Workflow: Fork/Sync and Cloning</p> 
 
 ## Pro Tips 
 
