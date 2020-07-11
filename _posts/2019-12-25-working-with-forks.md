@@ -76,4 +76,3 @@ Sync a fork of a repository to keep it ==up-to-date== with the upstream reposito
   > **Original Master Branch**: Owner's/Upstream master-branch from which you forked the repository.
 
     
-    
