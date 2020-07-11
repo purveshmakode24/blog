@@ -10,14 +10,14 @@ Forks are often used in open source development on GitHub.  If you are planning 
 
 #### What is Forking?
 
-A fork is a copy of a repository that you manage. Forks let you make changes to a project without affecting the original repository. You can fetch updates from or submit changes to the original repository with pull requests. In other words when we love someone’s repository and would like to have it in our GitHub account, we fork it so that we can work with it separately.
+A fork is a exact replica of a repository that you manage. Forks let you make changes to a project without affecting the owner's repository. You can fetch updates from or submit changes to the owner's repository with pull requests. In other words when we love someone else's repository and would like to have it in our GitHub account, we fork it so that we can work with it separately.
 
 
 #### What is a pull request?
 
-Pull requests are the way we contribute to group projects or open source projects.
+Pull requests are the way we contribute to open source or group projects.
 
-For instance, a user Alice forks a repository of Bob and makes changes to that repository. Now Alice can make a pull request to Bob, but it’s up to Bob to accept or decline it. It’s like saying, “Bob, would you please pull my changes?”
+For instance, a user Paul forks a repository of Benedict and makes changes to that repository. Now Paul can make a pull request to Benedict, but it’s up to Benedict to accept or decline it. It’s like saying, “Benedict, would you please pull my changes?!”
 
 #### Choose the forked repository you are working on
 
@@ -42,7 +42,7 @@ Configuring a remote for a fork is often required to [sync changes](#syncing-a-f
 #### Syncing a fork (Keeping fork up-to-date) {#syncing-a-fork}
 
 Sync a fork of a repository to keep it up-to-date with the upstream repository.
-* Updating your fork from original repo to keep up with their changes:
+* Updating your fork from the original repository to keep up with their changes:
 
 	```
 	    git pull upstream master
