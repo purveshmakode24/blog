@@ -8,24 +8,26 @@ read: "10 minutes read"
 
 Forks are often used in open source development on GitHub.  If you are planning on contributing on someone else's project on github, but don't know how to keep your fork up-to-date then this is the best place to help you get started.
 
-### What is Forking?
+#### What is Forking?
+
 A fork is a copy of a repository that you manage. Forks let you make changes to a project without affecting the original repository. You can fetch updates from or submit changes to the original repository with pull requests. In other words when we love someone’s repository and would like to have it in our GitHub account, we fork it so that we can work with it separately.
 
 
-### What is a pull request?
+#### What is a pull request?
 
 Pull requests are the way we contribute to group projects or open source projects.
 
 For instance, a user Alice forks a repository of Bob and makes changes to that repository. Now Alice can make a pull request to Bob, but it’s up to Bob to accept or decline it. It’s like saying, “Bob, would you please pull my changes?”
 
-### Choose the forked repository you are working on
+#### Choose the forked repository you are working on
 
 * Clone your fork	
 	```
 	    git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git	 
 	```
 
-### Configuring a remote for a fork
+#### Configuring a remote for a fork
+
 Configuring a remote for a fork is often required to [sync changes](#) from original repository to your forked repository. (That's the case when the original repository (owners) is not even with the forked repository)
 
 *  Add remote from original repository in your forked repository: 
@@ -34,7 +36,9 @@ Configuring a remote for a fork is often required to [sync changes](#) from orig
 	    git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
 	    git fetch upstream
 	```
-### Syncing a fork (Keeping fork up-to-date)
+
+#### Syncing a fork (Keeping fork up-to-date)
+
 Sync a fork of a repository to keep it ==up-to-date== with the upstream repository.
 * Updating your fork from original repo to keep up with their changes:
 	```
