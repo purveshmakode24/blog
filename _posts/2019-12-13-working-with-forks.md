@@ -12,6 +12,8 @@ Forks are often used in open source development on GitHub. If you are planning o
 
 A fork is a exact replica of a repository that you manage. Forks let you make changes to a project without affecting the owner's repository. You can fetch updates from or submit changes to the owner's repository with pull requests. In other words when we love someone else's repository and would like to have it in our GitHub account, we fork it so that we can work with it separately.
 
+> Note: Here owner's repository refers to the original repository or upstream repository.
+
 
 #### What is a pull request?
 
@@ -29,9 +31,9 @@ For instance, a user Paul forks a repository of Benedict and makes changes to th
 
 #### Configuring a remote for a fork
 
-Configuring a remote for a fork is often required to [sync changes](#syncing-a-fork) from original repository to your forked repository. (That's the case when the original repository (owner's) is not even with the forked repository)
+Configuring a remote for a fork is often required to [sync changes](#syncing-a-fork) from original repository to your forked repository. (That's the case when the original repository is not even with the forked repository)
 
-*  Add remote from original repository (owner's) in your forked repository: 
+*  Add remote from original repository (owner's/upstream) in your forked repository: 
 
 	```
 	    cd into/cloned/fork-repo
