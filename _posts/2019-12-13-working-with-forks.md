@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working with Forks?!"
-date:   2019-12-25 15:00:00 +0900
+date:   2019-12-13 15:00:00 +0900
 categories: posts
 read: "10 minutes read"
 ---
