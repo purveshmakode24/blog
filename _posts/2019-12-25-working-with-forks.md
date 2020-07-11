@@ -53,23 +53,23 @@ Sync a fork of a repository to keep it ==up-to-date== with the upstream reposito
 > In case if you're confused with what remote and local in this context really means?! Following diagram will help you out
 
 
-<img src="/assets/images/fork-and-clone.png" alt="fork-and-clone" style="width: 400px; display: block;
+<img src="/assets/images/fork-and-clone.png" alt="fork-and-clone" style="width: 600px; display: block;
     margin: 0 auto;"/>
 
 
 ## Pro Tips 
 
-> #### If you have basic understanding of how pull request and branches works, these are the best practices you must follow while working with the forked repository:
+> If you have basic understanding of how pull request and branches works, these are the best practices you must follow while working with the forked repository:
 
-##### 1) If you want to make some changes into an app, prefer to create feature branches. i.e., Instead of making changes into your forked master-branch, make changes into your Feature-Branch.
+1) If you want to make some changes into an app, prefer to create feature branches. i.e., Instead of making changes into your forked master-branch, make changes into your Feature-Branch.
 
-##### 2) Keep your remote/local forked master-branch synchronized before creating any Feature-Branch. (This hardly gives you any merged conflict when you make pull request, unless any other user is making the same changes that you are making after your remote/local forked master-branch is synchronized with original branch)
+2) Keep your remote/local forked master-branch synchronized before creating any Feature-Branch. (This hardly gives you any merged conflict when you make pull request, unless any other user is making the same changes that you are making after your remote/local forked master-branch is synchronized with original branch)
     
-    > ### If that's the case (Got any merge conflicts), you can simply resolve it by removing your conflict code from the feature-branch)
+    > If that's the case (Got any merge conflicts), you can simply resolve it by removing your conflict code from the feature-branch)
   
-##### 3) Keep your local/remote forked master-branch synced with the original master-branch before making any pull requests.
+3) Keep your local/remote forked master-branch synced with the original master-branch before making any pull requests.
 
-##### 4) Delete the feature branch when pull request is accepted.
+4) Delete the feature branch when pull request is accepted.
 
   > **Original Master Branch**: Owner's/Upstream master-branch from which you forked the repository.
 
