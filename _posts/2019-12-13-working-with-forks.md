@@ -49,8 +49,8 @@ Sync a forked repository to keep it up-to-date with the upstream repository.
 	    git pull upstream master
 	```
 
-	At this stage, your forked repository (Local) must be synced with the original repository.
-	> Note: But we can't see this sync in our remote branch.  So we have to push these changes from your Local to Remote
+	At this stage, your forked repository (Local) must have synced with the original repository.
+	> Note: But we can't see this sync in our remote branch. So we have to push these changes from your Local to Remote
 	
 * Push all the changes from your Local to Remote:
 
@@ -58,7 +58,7 @@ Sync a forked repository to keep it up-to-date with the upstream repository.
 	    git push origin master
 	``` 
 	
-✅ At this stage, your forked repository (both Local and Remote) must be synced with the original repository.
+✅ At this stage, your forked repository (both Local and Remote) must have synced with the original repository.
 
 > In case if you're confused with what remote and local in this context really means?! [Following diagram](#fork-and-clone) will help you out
 
