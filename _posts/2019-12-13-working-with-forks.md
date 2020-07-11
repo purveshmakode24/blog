@@ -57,7 +57,7 @@ Sync a fork of a repository to keep it up-to-date with the upstream repository.
 > In case if you're confused with what remote and local in this context really means?! Following diagram will help you out
 
 
-<img src="/assets/images/fork-and-clone.png" alt="fork-and-clone" style="width: 600px; display: block;
+<img src="/assets/images/fork-and-clone.png" alt="fork-and-clone" style="width: 800px; display: block;
     margin: 0 auto;"/>
 
 
