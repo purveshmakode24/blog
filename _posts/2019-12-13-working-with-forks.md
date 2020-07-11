@@ -58,10 +58,10 @@ Sync a fork of a repository to keep it up-to-date with the upstream repository.
 	``` 
 ✅ At this stage your forked repository (both Local and Remote) must be synced with the original repository.
 
-> In case if you're confused with what remote and local in this context really means?! Following diagram will help you out
+> In case if you're confused with what remote and local in this context really means?! [Following diagram](#fork-and-clone) will help you out
 
 
-<img src="/assets/images/fork-and-clone.png" alt="fork-and-clone" style="width: 800px; display: block;
+<img id="fork-and-clone" src="/assets/images/fork-and-clone.png" alt="fork-and-clone" style="width: 800px; display: block;
     margin: 0 auto;"/>
 <p style="display: block; margin: 0 auto;">fig., Workflow: Fork/Sync and Cloning</p> 
 
