@@ -50,10 +50,11 @@ Sync a fork of a repository to keep it ==up-to-date== with the upstream reposito
 	``` 
 :white_check_mark: At this stage your forked repository (both Local and Remote) must be synced with the original repository.
 
-> In case if you're confused with what remote and local in this context really means?! [Following diagram](#) will help you out
+> In case if you're confused with what remote and local in this context really means?! Following diagram will help you out
 
 
-![fork and clone](/assets/images/fork-and-clone.png)
+<img src="/assets/images/fork-and-clone.png" alt="fork-and-clone" style="width: 400px; display: block;
+    margin: 0 auto;"/>
 
 
 ## Pro Tips 
