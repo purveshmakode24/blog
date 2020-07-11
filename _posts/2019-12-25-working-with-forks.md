@@ -76,5 +76,3 @@ Sync a fork of a repository to keep it up-to-date with the upstream repository.
 4) Delete the feature branch when pull request is accepted.
 
   > **Original Master Branch**: Owner's/Upstream master-branch from which you forked the repository.
-
-    
