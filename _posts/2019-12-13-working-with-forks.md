@@ -29,9 +29,9 @@ For instance, a user Paul forks a repository of Benedict and makes changes to th
 
 #### Configuring a remote for a fork
 
-Configuring a remote for a fork is often required to [sync changes](#syncing-a-fork) from original repository to your forked repository. (That's the case when the original repository(owner's) is not even with the forked repository)
+Configuring a remote for a fork is often required to [sync changes](#syncing-a-fork) from original repository to your forked repository. (That's the case when the original repository (owner's) is not even with the forked repository)
 
-*  Add remote from original repository(owner's) in your forked repository: 
+*  Add remote from original repository (owner's) in your forked repository: 
 
 	```
 	    cd into/cloned/fork-repo
@@ -48,7 +48,7 @@ Sync a forked repository to keep it up-to-date with the upstream repository.
 	    git pull upstream master
 	```
 
-	At this stage your forked repository(Local) must be synced with original repository.
+	At this stage your forked repository (Local) must be synced with original repository.
 	> Note: But we can't see this sync in our remote branch.  So we have to push this changes from your Local to Remote
 	
 * Push all the changes from your Local to Remote:
@@ -56,7 +56,7 @@ Sync a forked repository to keep it up-to-date with the upstream repository.
 	```
 	    git push origin master
 	``` 
-✅ At this stage your forked repository(both Local and Remote) must be synced with the original repository.
+✅ At this stage your forked repository (both Local and Remote) must be synced with the original repository.
 
 > In case if you're confused with what remote and local in this context really means?! [Following diagram](#fork-and-clone) will help you out
 
@@ -73,7 +73,7 @@ Sync a forked repository to keep it up-to-date with the upstream repository.
 
 2. Keep your remote/local forked master-branch synchronized before creating any Feature-Branch. (This hardly gives you any merged conflict when you make pull request, unless any other user is making the same changes that you are making after your remote/local forked master-branch is synchronized with original branch)
     
-	> If that's the case(Got any merge conflicts), you can simply resolve it by removing your conflict code from the feature-branch)
+	> If that's the case (Got any merge conflicts), you can simply resolve it by removing your conflict code from the feature-branch)
   
 3. Keep your local/remote forked master-branch synced with the original master-branch before making any pull requests.
 
