@@ -51,7 +51,7 @@ read: "2 minutes read"
     <circle id="donut" cx="148" cy="140" r="200" mask="url(#bigmask)" fill="#34495e"/>
 </svg>
 
-Well, when I started getting deep into backend technologies by creating medium-like blog platform for professional people and publishers (acts as a blog host), I thought why would not I make my own blog using this so called backend framework known as [Django](https://www.djangoproject.com/)?!
+Well, when I started getting deep into backend technologies by creating [blog-medium](https://blog-medium.herokuapp.com/) - A Medium like blog platform for professional people and publishers (acts as a blog host), I thought why would not I make my own blog using this so called backend framework known as [Django](https://www.djangoproject.com/)?!
 
 (Update: Now I have shifted to Jekyll a ruby and full markdown based blog with other features.)
 
