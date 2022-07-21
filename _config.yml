@@ -8,9 +8,10 @@ author: Purvesh Makode
 email: makodepurvesh@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Writer. Developer. Geek.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "blog.purveshmakode.tk"
-# url: "purveshmakode24.github.io"
+# baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+# url: "blog.purveshmakode.tk"
+url: "purveshmakode24.github.io"
 permalink: /:categories/:year/:month/:day/:title/ 
 twitter_username: purveshmakode24
 github_username:  purveshmakode24
